@@ -189,6 +189,7 @@ module.exports.checkExpired = async (client) => {
   }
 
   const testServer = client.guilds.cache.get(client.json.config.ids.testServer);
+  if (!testServer) throw new Error(`Please provide a testServer id in config/config.json and make sure you added the bot to that server.\nHeres an invite link: ${getBotInvite(client)}`);
   const testCommands = await testServer.commands.fetch();
   for (let cmd of testCommands) {
     cmd = cmd[1];
