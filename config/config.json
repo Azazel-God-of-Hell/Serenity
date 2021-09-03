@@ -1,0 +1,16 @@
+{
+  "links": {
+    "supportServer": "https://discord.gg/MxFA3B78FU"
+  },
+  "ids": {
+    "testServer": "882844899597242420",
+    "serverJoinLeaveChannel": "882862548750336030"
+  },
+  "permissions": {
+    "support": [],
+    "admins": [],
+    "developers": [290182686365188096],
+    "owner": "638839661409730583",
+    "defaultRequiredPermissions": ["VIEW_CHANNEL", "SEND_MESSAGES"]
+  }
+}
